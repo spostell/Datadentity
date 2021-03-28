@@ -234,12 +234,11 @@ top: 27px;
 }
 
 
-
 #avatartext {
   position:relative;
-  margin-left:850px;
+  margin-left:700px;
   top:120px;
-
+  padding-right: 100px;
 }
 
 #pics {
