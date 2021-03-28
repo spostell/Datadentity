@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'inter-regular';
-    src: url('inter_regular.eot');
-    src: url('inter_regular.eot?#iefix') format('embedded-opentype');
-    src: url('inter-regular.svg#Inter-Regular') format('svg'),
-         url('inter-regular.ttf') format('truetype'),
-         url('inter-regular.woff') format('woff');
+    src: url('fonts/inter_regular.eot');
+    src: url('fonts/inter_regular.eot?#iefix') format('embedded-opentype');
+    src: url('fonts/inter-regular.svg#Inter-Regular') format('svg'),
+         url('fonts/inter-regular.ttf') format('truetype'),
+         url('fonts/inter-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   }
   @font-face {
     font-family: 'inter-bold';
-    src: url('inter-bold.eot');
-    src: url('inter-bold.eot?#iefix') format('embedded-opentype'),
-         url('inter-bold.svg#Inter-Bold') format('svg'),
-         url('inter-bold.ttf') format('truetype'),
-         url('inter-bold.woff') format('woff');
+    src: url('fonts/inter-bold.eot');
+    src: url('fonts/inter-bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/inter-bold.svg#Inter-Bold') format('svg'),
+         url('fonts/inter-bold.ttf') format('truetype'),
+         url('fonts/inter-bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   }
@@ -148,6 +148,7 @@ top: 27px;
 	font-size: 36px;
 	line-height: 44px;
 	color: #E5E5E5;
+  padding-left: 75px;
 
 }
 #bodytext3 {
@@ -168,8 +169,7 @@ top: 27px;
 
 #video {
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   width: 1098px;
 	height: 618px;
 
@@ -184,7 +184,7 @@ top: 27px;
 }
 
 
-#generatebutton {
+  #generatebutton {
     font-family: inter-regular;
     color: #E1E1E1;
     font-size: 30px;
@@ -227,22 +227,21 @@ top: 27px;
 
 #vidtext {
   float:left;
+  padding-left: 75px;
 }
 
 #vidlogo {
-  
     position: relative;
-    margin-left: 1000px;
-    bottom:100px;
+    text-align: center;
 
 }
-
 
 #avatartext {
   position:relative;
   margin-left:700px;
   top:120px;
   padding-right: 100px;
+
 }
 
 #pics {
@@ -255,23 +254,22 @@ top: 27px;
 #greybox {
   position: relative;
   background-color: grey;
+  width: 1440px;
+  height: 200px;
 
 }
 
 #apptext {
   float:right;
  position:relative;
-
-
+ padding-right: 75px;
 }
-
 
 #appImage {
   float:left;
   position: relative;
+  padding-left: 75px;
 }
-
-
 
 .footer {
   position:fixed;
