@@ -184,6 +184,7 @@ top: 27px;
 }
 
 
+
   #generatebutton {
     font-family: inter-regular;
     color: #E1E1E1;
@@ -236,6 +237,8 @@ top: 27px;
 
 }
 
+
+
 #avatartext {
   position:relative;
   margin-left:700px;
@@ -255,7 +258,7 @@ top: 27px;
   position: relative;
   background-color: grey;
   width: 1440px;
-  height: 200px;
+  height: 240px;
 
 }
 
@@ -263,13 +266,21 @@ top: 27px;
   float:right;
  position:relative;
  padding-right: 75px;
+ padding-top:60px;
+
+
+
 }
+
 
 #appImage {
   float:left;
   position: relative;
   padding-left: 75px;
+  padding-top:20px;
 }
+
+
 
 .footer {
   position:fixed;
