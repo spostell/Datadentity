@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'inter-regular';
-    src: url('fonts/inter_regular.eot');
-    src: url('fonts/inter_regular.eot?#iefix') format('embedded-opentype');
-    src: url('fonts/inter-regular.svg#Inter-Regular') format('svg'),
-         url('fonts/inter-regular.ttf') format('truetype'),
-         url('fonts/inter-regular.woff') format('woff');
+    src: url('inter_regular.eot');
+    src: url('inter_regular.eot?#iefix') format('embedded-opentype');
+    src: url('inter-regular.svg#Inter-Regular') format('svg'),
+         url('inter-regular.ttf') format('truetype'),
+         url('inter-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   }
   @font-face {
     font-family: 'inter-bold';
-    src: url('fonts/inter-bold.eot');
-    src: url('fonts/inter-bold.eot?#iefix') format('embedded-opentype'),
-         url('fonts/inter-bold.svg#Inter-Bold') format('svg'),
-         url('fonts/inter-bold.ttf') format('truetype'),
-         url('fonts/inter-bold.woff') format('woff');
+    src: url('inter-bold.eot');
+    src: url('inter-bold.eot?#iefix') format('embedded-opentype'),
+         url('inter-bold.svg#Inter-Bold') format('svg'),
+         url('inter-bold.ttf') format('truetype'),
+         url('inter-bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   }
