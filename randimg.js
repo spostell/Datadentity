@@ -15,7 +15,7 @@ See below for an avatar that represents your most recent online activities and h
 
 var captions = new Array(caption1, caption2, caption3);
 
-var pics = new Array("assets/birdimage.png", "assets/dogimage.png", "assets/pandaimage.png");
+var pics = new Array("birdimage.png", "dogimage.png", "pandaimage.png");
 
 var rnd = Math.floor(Math.random() * pics.length);
 
