@@ -149,7 +149,7 @@ top: 27px;
 	line-height: 44px;
 	color: #E5E5E5;
 	padding-left: 75px;
-  	padding-right: 110px;
+  	padding-right: 75px;
 }
 #bodytext3 {
 	font-family: inter-regular;
@@ -226,6 +226,7 @@ top: 27px;
 #vidtext {
   float:left;
   padding-left: 75px;
+  padding-right: 75px;
 }
 
 #vidlogo {
