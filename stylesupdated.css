@@ -249,7 +249,7 @@ top: 27px;
 #pics {
   position:relative;
   float:left;
-  bottom:-30px;
+  margin-top:30px;
   
 }
 
