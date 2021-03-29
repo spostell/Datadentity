@@ -168,18 +168,14 @@ top: 27px;
 }
 
 #video {
-	display: block;
-  margin: 0 auto;
-  width: 1098px;
-	height: 618px;
-
+  margin-left: 165px;
+  height: 618px;
 }
 
 .purplebox {
 
   width: 1440px;
   height: 650px;
-  /* top: 2427px; */
   background-color: #7215FE;
   flex-direction: row;
 }
