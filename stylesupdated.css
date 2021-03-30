@@ -22,7 +22,7 @@
   margin: 0 auto;
   white-space: nowrap;
   
-  width: 1630px;
+  width: 1440px;
   height: 121px;
  
   top: 831px;
@@ -34,7 +34,7 @@
 
 .marquee span {
   display: inline-block;
-  padding-left: 100%;
+  padding-left:0%;
   animation: marquee 28s linear infinite;
   font-family: inter-bold;
   color: #FD7535;
@@ -57,14 +57,18 @@
   body{
       background-color: #1D1D1D;
   }
+
+
   a {
     text-decoration: none;
-
   }
+
 
   div {
     display: block;
   }
+
+
   .button {
       font-family: inter-regular;
       font-size: 30px;
@@ -75,6 +79,7 @@
         display: inline-block;
         margin: 4px 2px;
   }
+
 
 .navbutton {
 	border: 4px solid #E1E1E1;
@@ -87,6 +92,8 @@
 	left: 1016px;
 	top: 41px;
 }
+
+
 .outlinedbutton {
 	border: 4px solid #E1E1E1;
 	border-radius: 100px;
@@ -95,6 +102,8 @@
   line-height: 55px;
   height: 55px;
 }
+
+
 .purplebutton {
 	border-radius: 100px;
 	background: #7215FE;
@@ -104,61 +113,96 @@
 	left: 513px;
 	top: 554px;
 }
-  h1{
-	font-family: inter-bold;
-	font-style: normal;
-	font-size: 50px;
-	line-height: 61px;
-	color: #E5E5E5;
+
+
+h1{
+font-family: inter-bold;
+font-style: normal;
+font-size: 50px;
+line-height: 61px;
+color: #E5E5E5;
 }
 
-p{
-  font-family: inter-regular;
+
+.navBar {
+    overflow: hidden;
+    padding-bottom: 20px;
+	left: 66px;
+	top: 27px;
+  }
+  
+
+.navBar a {
+    float:left;
+}
+
+
+#bodytext1 {
+	font-family: inter-regular;
 font-style: normal;
 font-weight: 500;
 font-size: 36px;
 line-height: 44px;
 color: #E5E5E5;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-bottom: 75px;
+	text-align: center;
 }
 
-.navBar {
-    overflow: hidden;
-    padding-bottom: 20px;
-     left: 66px;
-top: 27px;
-  }
-  
-.navBar a {
-    float:left;
-  
-}
 
-#bodytext1 {
-	font-family: inter-regular;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 36px;
-	line-height: 44px;
-	color: #E5E5E5;
-}
 #bodytext2 {
 	font-family: inter-regular;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 36px;
-	line-height: 44px;
-	color: #E5E5E5;
-	padding-left: 75px;
-  	padding-right: 75px;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+color: #E5E5E5;
+	position: relative;
+	width: 1041px;
+	height: 453px;
+	margin-left: 199px;
+	margin-right: 200px;
+	margin-top: 150px;
+	margin-bottom: 170px;
+	text-align: left;
 }
+
+
 #bodytext3 {
 	font-family: inter-regular;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 26px;
-	line-height: 44px;
-	color: #E5E5E5;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+color: #E5E5E5;
+position:relative;
+width: 1015px; 
+height: 151px;
+left: 180px;
+text-align: center;
+padding-bottom:80px;
+
 }
+#complete {
+font-family: inter-bold;
+font-style: normal;
+font-size: 24px;
+line-height: 29px;
+color: #FD7535;	
+}
+
+
+#caption {
+font-family: inter-regular;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 44px;
+color: #E5E5E5;
+}
+
+
 #scrollImage {
     margin-left: auto;
     margin-right: auto;
@@ -167,19 +211,19 @@ top: 27px;
 	left: 100px;
 }
 
+
 #video {
-  margin-left: 165px;
+  margin-left: 270px;
   height: 618px;
 }
 
 .purplebox {
-
   width: 1440px;
   height: 650px;
   background-color: #7215FE;
   flex-direction: row;
+	padding-bottom: 20px;
 }
-
 
 
   #generatebutton {
@@ -193,29 +237,23 @@ top: 27px;
     padding:15px;
     display: block;
     margin: 0 auto;
-
 }
 
-#caption {
-  font-family: inter-regular;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 22px;
-	line-height: 44px;
-	color: #E5E5E5;
-}
 
 #avatar1 {
   z-index: 1;
   position: absolute;
 }
+
+
 #avatar2 {
   z-index: 2;
   margin-left:280px;
   position:relative;
-  top:150px;
- 
+  top:150px; 
 }
+
+
 #avatar3 {
   z-index: 3;
   margin-left: 35px;
@@ -223,67 +261,72 @@ top: 27px;
   top: 50px;
 }
 
-#vidtext {
-  float:left;
-  padding-left: 75px;
-  padding-right: 75px;
-}
 
 #vidlogo {
     position: relative;
     text-align: center;
-
+	padding-bottom: 200px;
 }
-
 
 
 #avatartext {
-  position:relative;
+	font-family: inter-regular;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+color: #E5E5E5;
+ position:relative;
   margin-left:700px;
   top:120px;
   padding-right: 100px;
-
 }
+
 
 #pics {
   position:relative;
   float:left;
-  margin-top:30px;
-  
+  margin-top:30px;  
 }
+
 
 #greybox {
   position: relative;
-  background-color: grey;
+  background-color: #656666;
   width: 1440px;
-  height: 240px;
+  height: 405px;
 
 }
+
 
 #apptext {
+	font-family: inter-regular;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+color: #E5E5E5;
   float:right;
- position:relative;
- padding-right: 75px;
- padding-top:60px;
-
-
-
+  position: relative;
+  margin-left:76px;
+  padding-top: 100px;
+  padding-right:263px;
+    
 }
+
 
 
 #appImage {
-  float:left;
-  position: relative;
-  padding-left: 75px;
-  padding-top:20px;
+float:left;
+position: relative;
+padding-top: 100px;
+padding-bottom: 92px;
+padding-left:264px;
+
 }
-
-
 
 .footer {
   position:fixed;
   bottom: 0;
   width: 100%;
   }
-
-  
